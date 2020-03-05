@@ -499,6 +499,9 @@ body {
     text-align: left;
     padding-right: 7rem;
   }
+  .about .about-info .about-info-desc {
+    text-align: left;
+  }
   .services .services-header .services-header-desc {
     max-width: 500px;
     padding-top: 20px;
