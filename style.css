@@ -58,6 +58,7 @@ body {
   width: 70px;
   transition: 0.3s ease transform;
   cursor: pointer;
+  z-index: 101;
 }
 .nav-bar .nav-list .hamburger.active {
   transform: rotate(-180deg);
