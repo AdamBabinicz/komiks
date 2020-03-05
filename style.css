@@ -47,7 +47,8 @@ body {
   align-items: center;
   justify-content: center;
 }
-.nav-bar .nav-list .hamburger {
+.nav-bar .nav-list .hamburger,
+.nav-bar .nav-list .hamburger:focus {
   border: 2px solid #fff;
   border-radius: 50%;
   display: flex;
