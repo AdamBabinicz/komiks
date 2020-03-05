@@ -338,19 +338,19 @@ html {
   text-align: justify;
 }
 .services .services-info .service:nth-child(1) .service-card .service-front {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
     url("./images/2.jpg") center/cover no-repeat;
   position: relative;
   color: #fff;
 }
 .services .services-info .service:nth-child(2) .service-card .service-front {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
     url("./images/18.jpg") center/cover no-repeat;
   position: relative;
   color: #fff;
 }
 .services .services-info .service:nth-child(3) .service-card .service-front {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
     url("./images/4.jpg") center/cover no-repeat;
   position: relative;
   color: #fff;
