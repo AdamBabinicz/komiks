@@ -338,7 +338,7 @@ body {
 .services .services-info .service .service-card .service-back-desc {
   font-size: 1.3rem;
   margin-top: 10px;
-  text-align: justify;
+  text-align: left;
 }
 .services .services-info .service:nth-child(1) .service-card .service-front {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
