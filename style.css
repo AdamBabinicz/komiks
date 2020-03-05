@@ -264,7 +264,8 @@ body {
   font-size: 4rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: black;
+  color: #000;
+  text-align: center;
 }
 .services .services-header .services-header-desc {
   font-size: 1.8rem;
