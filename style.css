@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .container {
   width: 100%;
