@@ -140,6 +140,9 @@ body {
 .nav-bar .nav-list.open ul {
   transform: translateY(90px);
 }
+/* .nav-bar .nav-list.close ul {
+  transform: translateY(0);
+} */
 /* End Nav Bar */
 /* Hero Section */
 .hero {
