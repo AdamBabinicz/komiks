@@ -146,7 +146,6 @@ body {
   min-height: 80vh;
   width: 100%;
   padding-top: 50px;
-  justify-content: center;
   background-color: black;
   display: flex;
   flex-direction: column-reverse;
@@ -184,6 +183,7 @@ body {
   height: auto;
   width: 80%;
   margin-bottom: 3rem;
+  margin-right: 4rem;
 }
 .hero .hero-img img {
   height: 100%;
