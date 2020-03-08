@@ -184,10 +184,22 @@ body {
   width: 80%;
   margin-bottom: 3rem;
   margin-right: 4rem;
+  position: relative;
 }
 .hero .hero-img img {
   height: 100%;
   width: 100%;
+}
+.hero .hero-img::before {
+  content: "";
+  position: absolute;
+  display: block;
+  border-bottom: 3em solid red;
+  border-left: 3em solid red;
+  height: 102%;
+  width: 102%;
+  bottom: -4rem;
+  left: -4rem;
 }
 /* End Hero Section */
 
