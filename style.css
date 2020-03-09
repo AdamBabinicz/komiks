@@ -161,7 +161,6 @@ body {
   font-weight: 500;
   color: whitesmoke;
 }
-
 .hero .hero-info .hero-info-subheading {
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -189,17 +188,18 @@ body {
 .hero .hero-img img {
   height: 100%;
   width: 100%;
+  margin-bottom: -3px;
 }
 .hero .hero-img::before {
   content: "";
   position: absolute;
   display: block;
-  border-bottom: 3em solid #fff;
-  border-left: 3em solid #fff;
-  height: 102%;
-  width: 102%;
-  bottom: -4rem;
-  left: -4rem;
+  border-bottom: 1em solid orange;
+  border-left: 2em solid orange;
+  left: -3em;
+  bottom: -2em;
+  width: 10vw;
+  height: 10vh;
 }
 /* End Hero Section */
 
