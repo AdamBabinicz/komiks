@@ -569,7 +569,7 @@ body {
   }
   .services .services-info {
     flex-direction: row;
-    width: 80%;
+    width: 100%;
   }
   .services .services-info .service {
     margin: 0;
