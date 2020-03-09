@@ -271,6 +271,7 @@ body {
   margin-top: 50px;
   display: block;
 }
+
 .about .about-img .about-img-wrapper {
   margin-top: 50px;
   height: auto;
@@ -557,7 +558,7 @@ body {
     flex-direction: row;
   }
   .about .about-info {
-    width: 50%;
+    width: 100%;
     text-align: left;
     padding-right: 7rem;
   }
@@ -605,6 +606,19 @@ body {
   }
 }
 /* End media query for desktop and tab */
+/* Media query for tab only */
+@media only screen and (max-width: 1120px) {
+  .about {
+    width: 100%;
+    text-align: left;
+    padding-right: 7rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+}
+/* End media query for tab only */
+
 /* Media query for desctop only */
 @media only screen and (min-width: 1200px) {
   .hero .hero-info .hero-info-heading {
