@@ -27,6 +27,9 @@ body {
   z-index: 100;
   background: #000;
 }
+.nav-bar .nav-list.open ul {
+  transform: translateY(90px);
+}
 .nav-bar {
   background: #000;
   left: 0;
@@ -137,9 +140,7 @@ body {
   letter-spacing: 0.15rem;
   padding: 2rem 3rem;
 }
-.nav-bar .nav-list.open ul {
-  transform: translateY(90px);
-}
+
 /* End Nav Bar */
 /* Hero Section */
 .hero {
@@ -472,6 +473,9 @@ body {
 /* End Footer Section */
 /* Media query for desktop and tab */
 @media only screen and (min-width: 768px) {
+  .nav-bar .nav-list.open ul {
+    transform: translateY(0);
+  }
   .nav-bar .nav-list .hamburger {
     display: none;
   }
