@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://komiks.netlify.com/sitemap.xml
