@@ -237,6 +237,10 @@ body {
   letter-spacing: 0.2rem;
   margin-top: 20px;
   margin-bottom: 20px;
+  transition: 0.3s ease background;
+}
+.about .about-info .about-info-button:hover {
+  background: #000;
 }
 .about .about-img {
   margin-top: 50px;
@@ -457,6 +461,15 @@ body {
   padding-top: 10px;
   letter-spacing: 0.2rem;
 }
+.footer .footer-contact .footer-contact-info a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease all;
+}
+.footer .footer-contact .footer-contact-info:hover a {
+  color: #ccc;
+  border-bottom: 1.5px solid #ccc;
+}
 .footer .footer-social-follow .footer-social-icon a {
   color: #fff;
   font-size: 2rem;
@@ -533,6 +546,36 @@ body {
   }
   .services .services-info .service {
     margin: 0;
+  }
+  .footer .footer-contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "header header header"
+      "gildia jaros esen"
+      "parad book wiz";
+  }
+  .footer .footer-contact-heading {
+    grid-area: header;
+  }
+  .footer-contact-info.gildia {
+    grid-area: gildia;
+  }
+  .footer-contact-info.jaros {
+    grid-area: jaros;
+  }
+  .footer-contact-info.esen {
+    grid-area: esen;
+  }
+  .footer-contact-info.parad {
+    grid-area: parad;
+  }
+  .footer-contact-info.book {
+    grid-area: book;
+  }
+  .footer-contact-info.wiz {
+    grid-area: wiz;
   }
 }
 /* End media query for desktop and tab */
