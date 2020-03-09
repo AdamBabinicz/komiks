@@ -467,8 +467,9 @@ body {
   transition: 0.3s ease all;
 }
 .footer .footer-contact .footer-contact-info:hover a {
-  color: #ccc;
-  border-bottom: 1.5px solid #ccc;
+  color: rgb(133, 130, 130);
+  /* border-bottom: 1.5px solid rgb(133, 130, 130); */
+  letter-spacing: 2.5px;
 }
 .footer .footer-social-follow .footer-social-icon a {
   color: #fff;
