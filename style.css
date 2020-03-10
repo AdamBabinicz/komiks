@@ -41,8 +41,10 @@ body {
 /* End sroll button */
 #back-to-top-btn:hover,
 #back-to-top-btn:focus {
-  background-color: #fff;
+  background-color: rgb(216, 211, 211);
   color: #4d25ff;
+  box-shadow: inset 1rem 1rem 2rem rgba(0, 0, 0, 0.1),
+    inset -1rem -1rem 2rem rgba(255, 255, 255, 0.5);
 }
 /* Nav Bar */
 #nav-bar {
@@ -493,9 +495,11 @@ body {
 .footer .footer-contact .footer-contact-info:hover a {
   color: rgb(133, 130, 130);
   letter-spacing: 2.5px;
-  background: #fff;
+  /* background: #fff; */
   padding: 0.6rem 0.2rem;
   font-weight: bold;
+  box-shadow: inset 1rem 1rem 2rem rgba(0, 0, 0, 0.1),
+    inset -1rem -1rem 2rem rgba(255, 255, 255, 0.5);
 }
 .footer .footer-social-follow .footer-social-icon a {
   color: #fff;
