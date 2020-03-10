@@ -15,8 +15,11 @@ body {
 .container {
   width: 100%;
   height: auto;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
+  -webkit-box-pack: center;
   justify-content: center;
 }
 /* sroll button */
@@ -55,6 +58,7 @@ body {
   background: #000;
 }
 .nav-bar .nav-list.open ul {
+  -webkit-transform: translateY(90px);
   transform: translateY(90px);
 }
 .nav-bar {
@@ -63,8 +67,11 @@ body {
   top: 0;
   padding: 1rem 5rem;
   width: 100%;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
   justify-content: space-between;
 }
 .nav-bar .brand a {
@@ -73,32 +80,42 @@ body {
   color: #fff;
 }
 .nav-bar .nav-list {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
+  -webkit-box-pack: center;
   justify-content: center;
 }
 .nav-bar .nav-list .hamburger,
 .nav-bar .nav-list .hamburger:focus {
   border: 2px solid #fff;
   border-radius: 50%;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
+  -webkit-box-pack: center;
   justify-content: center;
   height: 70px;
   width: 70px;
+  -webkit-transition: 0.3s ease transform;
   transition: 0.3s ease transform;
   cursor: pointer;
   z-index: 101;
 }
 .nav-bar .nav-list .hamburger.active {
+  -webkit-transform: rotate(-180deg);
   transform: rotate(-180deg);
 }
 .nav-bar .nav-list .hamburger.active .bar::before {
   top: 0;
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 .nav-bar .nav-list .hamburger.active .bar::after {
   top: 0;
+  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 .nav-bar .nav-list .hamburger.active .bar {
@@ -109,6 +126,7 @@ body {
   width: 30px;
   background: #fff;
   position: relative;
+  display: -webkit-box;
   display: flex;
 }
 .nav-bar .nav-list .hamburger .bar::before,
@@ -119,6 +137,7 @@ body {
   height: 100%;
   width: 100%;
   background: #fff;
+  -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
 }
 .nav-bar .nav-list .hamburger .bar::before {
@@ -134,7 +153,9 @@ body {
   left: 0;
   background: rgb(46, 45, 45);
   padding: 5rem 0;
+  -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
+  -webkit-transition: 0.3s ease transform;
   transition: 0.3s ease transform;
   text-align: center;
   z-index: -1;
@@ -145,6 +166,7 @@ body {
   position: relative;
 }
 .nav-bar .nav-list ul li:hover::after {
+  -webkit-transform: translateX(-50%) scale(1);
   transform: translateX(-50%) scale(1);
 }
 .nav-bar .nav-list ul li::after {
@@ -155,7 +177,9 @@ body {
   background: #fff;
   left: 50%;
   bottom: 0;
+  -webkit-transform: translateX(-50%) scale(0);
   transform: translateX(-50%) scale(0);
+  -webkit-transition: 0.3s ease transform;
   transition: 0.3s ease transform;
 }
 .nav-bar .nav-list ul li a {
@@ -175,9 +199,14 @@ body {
   width: 100%;
   padding-top: 50px;
   background-color: #000;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
   flex-direction: column-reverse;
+  -webkit-box-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
   align-items: center;
 }
 .hero .hero-info {
@@ -236,6 +265,8 @@ body {
   width: 100%;
   min-height: 50vh;
   padding: 10rem 5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
 }
 .about .about-info {
@@ -264,6 +295,7 @@ body {
   letter-spacing: 0.2rem;
   margin-top: 20px;
   margin-bottom: 20px;
+  -webkit-transition: 0.3s ease background;
   transition: 0.3s ease background;
 }
 .about .about-info .about-info-button:hover {
@@ -290,6 +322,7 @@ body {
   content: "";
   right: -5rem;
   top: 50%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 70%;
   height: 120%;
@@ -299,6 +332,8 @@ body {
 /* End About Section  */
 /* Services section  */
 .services {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
   min-height: 60vh;
   padding: 10rem 5rem;
@@ -319,16 +354,22 @@ body {
 }
 .services .services-info {
   margin-top: 30px;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
+  -webkit-box-pack: center;
   justify-content: center;
   width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
 }
 .services .services-info .service {
   width: 100%;
   min-height: 300px;
   position: relative;
+  -webkit-transition: 0.3s ease transform;
   transition: 0.3s ease transform;
   margin: 5px;
 }
@@ -336,7 +377,9 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  -webkit-transition: 0.3s ease transform;
   transition: 0.3s ease transform;
   display: block;
 }
@@ -347,15 +390,22 @@ body {
   top: 0;
   height: 100%;
   width: 100%;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
+  -webkit-box-align: center;
   align-items: center;
+  -webkit-box-pack: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.13);
   padding: 10px;
 }
 .services .services-info .service .service-card .service-back {
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 .services .services-info .service .service-card .service-front {
@@ -380,6 +430,7 @@ body {
   text-shadow: 0.05rem 0.05rem 0.05rem rgba(2, 2, 2, 0.3);
 }
 .services .services-info .service:hover .service-card {
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 .services .services-info .service .service-card .service-back-desc {
@@ -388,18 +439,42 @@ body {
   text-align: left;
 }
 .services .services-info .service:nth-child(1) .service-card .service-front {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.3)),
+      to(rgba(0, 0, 0, 0.1))
+    ),
+    url("./images/2.jpg") center/cover no-repeat;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
     url("./images/2.jpg") center/cover no-repeat;
   position: relative;
   color: #fff;
 }
 .services .services-info .service:nth-child(2) .service-card .service-front {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.3)),
+      to(rgba(0, 0, 0, 0.1))
+    ),
+    url("./images/18.jpg") center/cover no-repeat;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
     url("./images/18.jpg") center/cover no-repeat;
   position: relative;
   color: #fff;
 }
 .services .services-info .service:nth-child(3) .service-card .service-front {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.3)),
+      to(rgba(0, 0, 0, 0.1))
+    ),
+    url("./images/4.jpg") center/cover no-repeat;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
     url("./images/4.jpg") center/cover no-repeat;
   position: relative;
@@ -439,6 +514,8 @@ body {
 /* Hire Section */
 .hire {
   min-height: 10vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
   width: 100%;
   background: rgba(0, 0, 0, 0.212);
@@ -459,6 +536,7 @@ body {
   letter-spacing: 0.2rem;
   margin-top: 10px;
   color: whitesmoke;
+  -webkit-transition: 0.3s ease background;
   transition: 0.3s ease background;
 }
 .hire .hire-button:hover {
@@ -471,6 +549,8 @@ body {
   width: 100%;
   background: #000;
   color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
   text-align: center;
   padding: 5rem;
@@ -490,6 +570,7 @@ body {
   letter-spacing: 0.2rem;
   color: #fff;
   text-decoration: none;
+  -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
 }
 .footer .footer-contact .footer-contact-info:hover a {
@@ -506,6 +587,7 @@ body {
   font-size: 2rem;
   margin: 0.4rem;
   display: inline-block;
+  -webkit-transition: 0.3s ease all;
   transition: 0.3s ease all;
 }
 .footer-social-follow-heading {
@@ -518,6 +600,7 @@ body {
 /* Media query for desktop and tab */
 @media only screen and (min-width: 768px) {
   .nav-bar .nav-list.open ul {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   .nav-bar .nav-list .hamburger {
@@ -527,6 +610,7 @@ body {
     width: 80%;
   }
   .nav-bar .nav-list ul {
+    -webkit-transform: translateX(0);
     transform: translateX(0);
     position: initial;
     padding: 0;
@@ -538,9 +622,13 @@ body {
   }
   .hero {
     height: 100vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
     flex-direction: row;
     padding-left: 10%;
+    -webkit-box-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
     align-items: center;
   }
   .hero .hero-info {
@@ -559,6 +647,8 @@ body {
   .about {
     width: 80%;
     margin: 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
     flex-direction: row;
   }
   .about .about-info {
@@ -572,6 +662,8 @@ body {
     margin: 0 auto;
   }
   .services .services-info {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
     flex-direction: row;
     width: 100%;
   }
@@ -616,7 +708,10 @@ body {
     width: 100%;
     text-align: left;
     padding-right: 7rem;
+    display: -webkit-box;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-direction: column;
     position: relative;
   }
