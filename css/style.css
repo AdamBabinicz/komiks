@@ -43,7 +43,7 @@ body {
   border-radius: 50%;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  z-index: 1000;
+  z-index: 1;
 }
 /* End sroll button */
 #back-to-top-btn:hover,
@@ -748,6 +748,9 @@ body {
 /* End Footer Section */
 /* Media query for desktop and tab */
 @media screen and (max-width: 768px) {
+  .gallery-item {
+    flex-direction: column;
+  }
   .lightbox__container img {
     width: 80%;
     height: 100%;
