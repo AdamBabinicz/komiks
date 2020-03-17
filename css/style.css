@@ -223,7 +223,7 @@ body {
 }
 .hero .hero-info .hero-info-subheading {
   font-size: 1.6rem;
-  text-transform: lowercase;
+  /* text-transform: capitalize; */
   letter-spacing: 0.5rem;
   color: whitesmoke;
 }
