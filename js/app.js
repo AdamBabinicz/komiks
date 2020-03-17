@@ -12,12 +12,6 @@ navLi.addEventListener("click", () => {
   hamburgerIcon.classList.toggle("active");
 });
 
-// const galA = document.querySelector(".gal");
-// const foto = document.querySelector(".hero-info-button");
-// foto.addEventListener("click", () => {
-//   galA.classList.add("opent");
-// });
-
 // scroll to top
 const backToTopButton = document.querySelector("#back-to-top-btn");
 
