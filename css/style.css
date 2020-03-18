@@ -237,6 +237,7 @@ body {
   text-decoration: none;
   letter-spacing: 0.6rem;
   background-color: rgba(85, 85, 85, 0.534);
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 .hero .hero-info .hero-info-button:hover {
@@ -756,6 +757,8 @@ body {
 /* Media query for desktop and tab */
 @media screen and (max-width: 768px) {
   .gallery-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-direction: column;
   }
   .lightbox__container img {
