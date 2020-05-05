@@ -801,6 +801,8 @@ body {
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
+    background: url(../images/fot/universe-703522_1920.jpg) center/cover
+      no-repeat;
   }
   .hero .hero-info {
     min-width: 30%;
