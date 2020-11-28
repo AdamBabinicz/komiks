@@ -708,12 +708,15 @@ body {
   color: #fff;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+  display: flex;
   flex-direction: column;
   text-align: center;
   padding: 5rem;
 }
 .footer .footer-contact {
-  padding: 20px;
+  padding: 10px;
+  height: 35rem;
+  width: 50%;
 }
 .footer .footer-contact .footer-contact-heading {
   font-size: 2.5rem;
@@ -732,12 +735,12 @@ body {
 }
 .footer .footer-contact .footer-contact-info:hover a {
   color: rgb(133, 130, 130);
-  letter-spacing: 2.5px;
+  /* letter-spacing: 2.5px; */
   /* background: #fff; */
-  padding: 0.6rem 0.2rem;
+  /* padding: 0.6rem 0.2rem; */
   font-weight: bold;
-  box-shadow: inset 1rem 1rem 2rem rgba(0, 0, 0, 0.1),
-    inset -1rem -1rem 2rem rgba(255, 255, 255, 0.5);
+  /* box-shadow: inset 1rem 1rem 2rem rgba(0, 0, 0, 0.1),
+    inset -1rem -1rem 2rem rgba(255, 255, 255, 0.5); */
 }
 .footer .footer-social-follow .footer-social-icon a {
   color: #fff;
@@ -767,6 +770,9 @@ body {
   }
   .gallery-description .cta {
     margin-bottom: 3.5rem;
+  }
+  .footer-contact-info {
+    margin-bottom: 1rem;
   }
 }
 @media only screen and (min-width: 768px) {
